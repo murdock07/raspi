@@ -3,3 +3,8 @@ D:\Program Files (x86)\Xamarin Studio\Projects\Raspi\Raspi\bin\Debug\Raspi.exe
 D:\Program Files (x86)\Xamarin Studio\Projects\Raspi\Raspi\bin\Debug\Raspi.pdb
 D:\Program Files (x86)\Xamarin Studio\Projects\Raspi\Raspi\obj\x86\Debug\Raspi.exe
 D:\Program Files (x86)\Xamarin Studio\Projects\Raspi\Raspi\obj\x86\Debug\Raspi.pdb
+C:\Users\Murdock\Desktop\raspi\raspi\RaspiSharp\Raspi\bin\Debug\Raspi.exe
+C:\Users\Murdock\Desktop\raspi\raspi\RaspiSharp\Raspi\bin\Debug\Raspi.pdb
+C:\Users\Murdock\Desktop\raspi\raspi\RaspiSharp\Raspi\obj\x86\Debug\Raspi.csprojResolveAssemblyReference.cache
+C:\Users\Murdock\Desktop\raspi\raspi\RaspiSharp\Raspi\obj\x86\Debug\Raspi.exe
+C:\Users\Murdock\Desktop\raspi\raspi\RaspiSharp\Raspi\obj\x86\Debug\Raspi.pdb

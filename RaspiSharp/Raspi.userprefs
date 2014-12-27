@@ -2,17 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Raspi\MainWindow.cs">
     <Files>
-      <File FileName="Raspi\Program.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Raspi\MessagingClass.cs" Line="14" Column="14" NotebookId="1" />
-      <File FileName="Raspi\MenuClass.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Raspi\Program.cs" Line="1" Column="1" />
+      <File FileName="Raspi\MessagingClass.cs" Line="1" Column="1" />
+      <File FileName="Raspi\MenuClass.cs" Line="1" Column="1" />
+      <File FileName="Raspi\MainWindow.cs" Line="3" Column="3" />
     </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="1352" Y="-8" Width="1366" Height="706">
-        <Files>
-          <File FileName="Raspi\MainWindow.cs" Line="3" Column="3" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
