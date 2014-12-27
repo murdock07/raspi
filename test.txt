@@ -1,1 +1,2 @@
 teeszt from winpc
+tesyt from raspi
