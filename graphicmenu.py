@@ -31,7 +31,7 @@ class appButtons:
 		btn.pack()
 		self.app_cmd=app_list[app_index][APP_CMD]
 	def startApp(self):
-print ("APP_CMD: %s" % self.app_cmd)
+		print ("APP_CMD: %s" % self.app_cmd)
 		runApplictionThread(self.app_cmd).start()
 		
 root = tk.Tk()
