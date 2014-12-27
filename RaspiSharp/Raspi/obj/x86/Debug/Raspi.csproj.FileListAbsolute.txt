@@ -1,0 +1,5 @@
+D:\Program Files (x86)\Xamarin Studio\Projects\Raspi\Raspi\obj\x86\Debug\Raspi.csprojResolveAssemblyReference.cache
+D:\Program Files (x86)\Xamarin Studio\Projects\Raspi\Raspi\bin\Debug\Raspi.exe
+D:\Program Files (x86)\Xamarin Studio\Projects\Raspi\Raspi\bin\Debug\Raspi.pdb
+D:\Program Files (x86)\Xamarin Studio\Projects\Raspi\Raspi\obj\x86\Debug\Raspi.exe
+D:\Program Files (x86)\Xamarin Studio\Projects\Raspi\Raspi\obj\x86\Debug\Raspi.pdb

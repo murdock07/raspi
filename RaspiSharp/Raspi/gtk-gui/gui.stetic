@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/Raspi.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="425 300">
+    <action-group name="Default">
+      <action id="SettingsAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Settings</property>
+        <property name="ShortLabel" translatable="yes">Settings</property>
+      </action>
+      <action id="CloseAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Close</property>
+        <property name="ShortLabel" translatable="yes">Close</property>
+        <signal name="Activated" handler="OnCloseActionActivated" />
+      </action>
+      <action id="ViewStatusAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">View Status</property>
+        <property name="ShortLabel" translatable="yes">View Status</property>
+        <signal name="Activated" handler="OnViewStatusActionActivated" />
+      </action>
+      <action id="ConfigureAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Configure</property>
+        <property name="ShortLabel" translatable="yes">Configure</property>
+        <signal name="Activated" handler="OnConfigureActionActivated" />
+      </action>
+    </action-group>
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="Resizable">False</property>
+    <property name="AllowGrow">False</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="MainContainer">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.MenuBar" id="MainMenubar">
+            <property name="MemberName" />
+            <node name="MainMenubar" type="Menubar">
+              <node type="Menu" action="SettingsAction">
+                <node type="Menuitem" action="ViewStatusAction" />
+                <node type="Menuitem" action="ConfigureAction" />
+              </node>
+            </node>
+          </widget>
+          <packing>
+            <property name="X">1</property>
+            <property name="Y">1</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="ButtonSend">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Send</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnButtonSendClicked" />
+          </widget>
+          <packing>
+            <property name="X">1</property>
+            <property name="Y">237</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="ButtonClear">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Clear</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnButtonClearClicked" />
+          </widget>
+          <packing>
+            <property name="X">40</property>
+            <property name="Y">237</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Entry" id="entry2">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">●</property>
+          </widget>
+          <packing>
+            <property name="X">1</property>
+            <property name="Y">30</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
